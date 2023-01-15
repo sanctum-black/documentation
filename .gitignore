@@ -1,3 +1,4 @@
+# .gitignore file for: documentation
 # Ignore .obsidian folder on any subfolder using ** wildcard
 **/.obsidian/
 

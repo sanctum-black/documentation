@@ -1,2 +1,2 @@
 # cheatsheets
-A collection of Cheatsheets for various Programming Languages &amp; Utilities, created on Obsidian.
+A collection of documentation sheets for various programming languages &amp; utilities, created on Obsidian.
