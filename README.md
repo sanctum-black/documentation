@@ -22,7 +22,7 @@
 ## Pipeline
 - Below is the current pipeline limited to 6 entries for the **Documentation** repo. For now, I will only specify what's next and abstain from setting delivery dates, though dynamics might change in the future.
 
-| Priority | Technology | Category | Change Required |
+| Priority | Technology | Category | Change Required &nbsp; &nbsp; &nbsp;|
 |---|---|---|---|
 | 1 | [Julia](https://github.com/pabloaguirrenck/documentation/blob/master/programming-languages/julia.md) | [Programming Languages](https://github.com/pabloaguirrenck/documentation/tree/master/programming-languages) | Conclude Documentation |
 | 2 | [QNAP NAS](https://github.com/pabloaguirrenck/documentation/blob/master/network-and-servers/NAS.md) | [Network & Servers](https://github.com/pabloaguirrenck/documentation/tree/master/network-and-servers) | Conclude Documentation |
@@ -30,6 +30,7 @@
 | 4 | [WinSCP](https://github.com/pabloaguirrenck/documentation/blob/master/network-and-servers/WinSCP.md) | [Network & Servers](https://github.com/pabloaguirrenck/documentation/tree/master/network-and-servers) | Conclude Documentation |
 | 5 | LaTeX | [Writing & Formatting](https://github.com/pabloaguirrenck/documentation/tree/master/writing-and-formatting) | Create Documentation |
 | 6 | Python | [Programming Languages](https://github.com/pabloaguirrenck/documentation/tree/master/programming-languages) | Create Documentation |
+
 _Updated 18-Jan-2023_
 
 ## Website
