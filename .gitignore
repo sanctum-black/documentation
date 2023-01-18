@@ -2,5 +2,9 @@
 # Ignore .obsidian folder on any subfolder using ** wildcard
 **/.obsidian/
 
+# Ignore all featured images
+**/*.jpg
+
+
 # Ignore desktop.ini
 desktop.ini
