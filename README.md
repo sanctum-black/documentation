@@ -16,7 +16,7 @@ You are welcome to clone my repositories, & modify and distribute the source cod
 3. [Terminal](https://github.com/pabloaguirrenck/documentation/tree/master/terminal)
 	1. [PowerShell 7](https://github.com/pabloaguirrenck/documentation/blob/master/terminal/powershell-7.md)
 4. [Visualization & Graphic Design](https://github.com/pabloaguirrenck/documentation/tree/master/visualization-and-graphic-design)
-		1. [GIMP](https://github.com/pabloaguirrenck/documentation/blob/master/visualization-and-graphic-design/GIMP.md)
+	1. [GIMP](https://github.com/pabloaguirrenck/documentation/blob/master/visualization-and-graphic-design/GIMP.md)
 5. [Writing & Formatting](https://github.com/pabloaguirrenck/documentation/tree/master/writing-and-formatting)
 	1. [Markdown](https://github.com/pabloaguirrenck/documentation/blob/master/writing-and-formatting/markdown.md)
 
