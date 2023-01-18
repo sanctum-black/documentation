@@ -1,9 +1,9 @@
 # Markdown
-_Markdown_ is a lightweight markup language for creating formatted text using a plain-text editor. 
+**Markdown** is a lightweight markup language for creating formatted text using a plain-text editor. 
 
 Extensions used are `.md` and `.markdown`.
 
-## 0. Table of Contents
+## Table of Contents
 1. [Headers](#1-headers)
 2. [Horizontal Rule](#2-horizontal-rule)
 3. [Emphasis](#3-emphasis)
@@ -28,7 +28,7 @@ Extensions used are `.md` and `.markdown`.
 16. [References](#16-references)
 
 ## 1. Headers
-- _Headers_ serve as hierarchy differentiators, just as in any typical word processor. 
+- **Headers** serve as hierarchy differentiators, just as in any typical word processor. 
 
 #### **_Syntax_**
 ```
@@ -49,7 +49,7 @@ Extensions used are `.md` and `.markdown`.
 ###### Heading 6
 
 ## 2. Horizontal Rule
-- _Horizontal rules_ can be implemented for dividing sections.
+- **Horizontal rules** can be implemented for dividing sections.
 
 #### **_Syntax_**
 ```
@@ -69,7 +69,7 @@ ___
 Underscores
 
 ## 3. Emphasis
-- _Emphasis_ characters are used to provide weight, to differenciate, to denote a word in another language, or to denote a keyword, among other applications.
+- **Emphasis** characters are used to provide weight, to differentiate, to denote a word in another language, or to denote a keyword, among other applications.
 
 ### **_Syntax_**
 ```
@@ -89,7 +89,7 @@ _Italics_
 ==Highlight==
 
 ## 4. Line Breaks
-- _Line breaks_ are used to separate text.
+- **Line breaks** are used to separate text.
 
 ### **_Syntax_**
 ```
@@ -107,7 +107,7 @@ Double Line Break:
 
 
 ## 5. Lists
-- _Lists_ are used to denote a number of connected items or names written or printed consecutively.
+- **Lists** are used to denote a number of connected items or names written or printed consecutively.
 - Lists can be _ordered_ or _unordered_.
 - Upon inputting the first number in ordered lists or the first bullet in unordered lists and inputting a `newline`, text editors will continue with sequence. 
 
@@ -149,7 +149,7 @@ Ordered list:
 - Item n
 
 ## 6. Task Lists
-- A _Task List_ is used to graphically represent a checklist. 
+- A **Task List** is used to graphically represent a checklist. 
 - A Task List has two components:
 	- Check: Use square brackets `[]`. Fill with `x` if checked, otherwise empty.
 	- Task: The actual task to denote.
@@ -167,7 +167,7 @@ Ordered list:
 [ ] Task n
 
 ## 7. Links
-- _Links_ can be inserted by using squre brackets `[]` and parenthesis `()`.  
+- **Links** can be inserted by using squre brackets `[]` and parenthesis `()`.  
 - Links can be external (i.e. some external website) or internal (i.e. inside same Markdown document).
 
 ### i. External Link
@@ -191,20 +191,20 @@ Ordered list:
 [Table of Contents](#0-table-of-contents)
 
 ## 8. Images
-- _Images_ can be embedded inline.
+- **Images** can be embedded inline.
 
 ### **_Syntax_**
 ```
 Inline-style: 
-![alt text](https://github.com/pabloaguirrenck/digital-assets/blob/main/markdown-cheatsheet-asset.jpg "Digital Asset Inline")
+![alt text](https://raw.githubusercontent.com/pabloaguirrenck/digital-assets/master/markdown-cheatsheet-asset-1.jpg "Digital Asset Inline")
 ```
 
 ### **_Example_**
 - Inline-style: 
-![alt text](https://github.com/pabloaguirrenck/digital-assets/blob/main/markdown-cheatsheet-asset-1.jpg "Digital Asset 1")
+![alt text](https://raw.githubusercontent.com/pabloaguirrenck/digital-assets/master/markdown-cheatsheet-asset-1.jpg "Digital Asset 1")
 
 ## 9. Code Blocks & Syntax Highlighting
-- _Code blocks_ are used to denote fragments of code, in an easy-to-copy fashion.
+- **Code blocks** are used to denote fragments of code, in an easy-to-copy fashion.
 - _Highlighting_ is language dependent and must be specified in block.
 
 ### i. Code Blocks & Syntax Highlighting
@@ -281,7 +281,7 @@ A Python `class` serves as blueprint for creating `objects`.
 A Python `class` serves as a blueprint for creating `objects`.
 
 ## 10. Keyboard Entries
-- _Keyboard entries_ are a way to represent actual keys in a keyboard, using a special format.
+- **Keyboard entries** are a way to represent actual keys in a keyboard, using a special format.
 - By default, Markdown does not support this type of formatting, but we can achieve this by using HTML code.
 - Similar to code blocks, we can symbolize keyboard entries by using the HTML `<kbd></kbd>` element.
 
@@ -293,8 +293,8 @@ To execute, press the <kbd>Enter</kbd> key.
 ### _Example_
 To execute, press the <kbd>Enter</kbd> key.
 
-## 10. Tables
-- _Tables_ can be used to structure data, and are comprised of headers and body.
+## 11. Tables
+- **Tables** can be used to structure data, and are comprised of headers and body.
 - A table is denoted by specifying headers first, separator second, and body third.
 - Outer pipes (|) are optional.
 
@@ -312,8 +312,8 @@ To execute, press the <kbd>Enter</kbd> key.
 | r1c1 | r1c2 | r1cn |
 | r2c1 | r2c2 | r2cn |
 
-## 11. Blockquotes
-- _Blockquotes_ are used to indicate the quotation of a large section of text from another source.
+## 12. Blockquotes
+- **Blockquotes** are used to indicate the quotation of a large section of text from another source.
 
 ### **_Syntax_**
 ```
@@ -332,8 +332,8 @@ Quote break.
 Quote break.
 > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
 
-## 12. Inline HTML
-- Raw _HTML_ can be included in Markdown.
+## 13. Inline HTML
+- Raw **HTML** can be included in Markdown.
 
 ### **_Syntax_**
 ```
@@ -355,8 +355,8 @@ Quote break.
   <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
 
-## 13. Tex Mathematical Expressions
-- _Tex_ mathematical expressions can be declared in Markdown by using Tex syntax directly.
+## 14. Tex Mathematical Expressions
+- **Tex** mathematical expressions can be declared in Markdown by using Tex syntax directly.
 - To enter a Tex expression, wrap in dollar signs `$`.
 
 ### **_Syntax_**
@@ -367,8 +367,8 @@ $f_X(x)={k \over \sqrt{2\pi\sigma^2}}e^{{-({x-\mu})^2}\over2\sigma^2}, x \geq 0$
 ### **_Example_**
 $f_X(x)={k \over \sqrt{2\pi\sigma^2}}e^{{-({x-\mu})^2}\over2\sigma^2}, x \geq 0$
 
-## 14. Footnotes
-- _Footnotes_ can be added by enclosing any keyword in squared brackets and ading the caret symbol before keyword `[^footnote_1]`.
+## 15. Footnotes
+- **Footnotes** can be added by enclosing any keyword in squared brackets and ading the caret symbol before keyword `[^footnote_1]`.
 - Upn clicking the footnote, the reference will highlight.
 - Note that in **Obsidian** at least, footnotes are rendered until _read-mode_ is accessed.
 
@@ -386,7 +386,7 @@ This is a sentence with footnote. [^footnote]
 
  [^footnote]: This is the actual footnote.
 
-## 15. References
+## 16. References
 - [ChristianLempa/cheat-sheets/misc/markdown.md](https://github.com/ChristianLempa/cheat-sheets/blob/main/misc/markdown.md)
 - [adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [normal-distribution-density-function](https://en.wikipedia.org/wiki/Normal_distribution)
