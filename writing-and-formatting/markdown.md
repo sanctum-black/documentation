@@ -26,6 +26,7 @@ Extensions used are `.md` and `.markdown`.
 14. [Tex Mathematical Expressions](#14-tex-mathematical-expressions)
 15. [Footnotes](#15-footnotes)
 16. [References](#16-references)
+17. [License](#17-license)
 
 ## 1. Headers
 - **Headers** serve as hierarchy differentiators, just as in any typical word processor. 
@@ -390,3 +391,6 @@ This is a sentence with footnote. [^footnote]
 - [ChristianLempa/cheat-sheets/misc/markdown.md](https://github.com/ChristianLempa/cheat-sheets/blob/main/misc/markdown.md)
 - [adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [normal-distribution-density-function](https://en.wikipedia.org/wiki/Normal_distribution)
+
+## 17. License
+This content is protected under the [GNU Free Documentation License v1.3](https://github.com/pabloaguirrenck/documentation/blob/master/LICENSE).

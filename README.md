@@ -5,8 +5,6 @@
 ## About
 Here you will find all the documentation I’ve created for the technology I use. I currently use Windows & Linux as main drivers, so most of the documentation will not be platform agnostic, though occasionally, I may include macOS-related content. Keep in mind that most cases are WIP. All documents are created using Markdown.
 
-You are welcome to clone my Documentation, & modify and distribute the source code as you please, given that you stick to the [GNU Free Documentation License (GFDL)](https://www.gnu.org/licenses/fdl-1.3.html) standards. Please refer to the repo [License](https://github.com/pabloaguirrenck/documentation/blob/master/LICENSE) if you have any questions regarding licensing.
-
 ## Table of Contents
 1. [Network & Servers](https://github.com/pabloaguirrenck/documentation/tree/master/network-and-servers)
 	1. [QNAP NAS](https://github.com/pabloaguirrenck/documentation/blob/master/network-and-servers/NAS.md)
@@ -21,7 +19,7 @@ You are welcome to clone my Documentation, & modify and distribute the source co
 	1. [Markdown](https://github.com/pabloaguirrenck/documentation/blob/master/writing-and-formatting/markdown.md)
 
 ## Pipeline
-Below is the current pipeline limited to 6 entries for the **Documentation** repo. For now, I will only specify what's next and abstain from setting delivery dates, though dynamics might change in the future.
+Below is the current pipeline limited to 6 entries for the **documentation** repo. For now, I will only specify what's next and abstain from setting delivery dates, though dynamics might change in the future.
 
 | Priority | Technology | Category | Change Required &nbsp; &nbsp; &nbsp;|
 |---|---|---|---|
@@ -37,3 +35,8 @@ _Updated 18-Jan-2023_
 ## Website
 You can also directly consult the [Documentation](https://pabloagn.com/documentation/) page on my website.
 If you have any questions, suggestions or requests, contact me directly using the [Contact Form](https://pabloagn.com/contact/).
+
+## License
+All content on this repo is licensed under a [GNU Free Documentation License Version 1.3](https://www.gnu.org/licenses/fdl-1.3.en.html). You can find the license for this repo [here](https://github.com/pabloaguirrenck/documentation/blob/master/LICENSE).
+
+You are welcome to clone & distribute my content, given that you stick to the license standards above.
