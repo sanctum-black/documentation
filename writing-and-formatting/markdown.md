@@ -197,12 +197,12 @@ Ordered list:
 ### **_Syntax_**
 ```
 Inline-style: 
-![alt text](https://raw.githubusercontent.com/pabloaguirrenck/digital-assets/master/markdown-cheatsheet-asset-1.jpg "Digital Asset Inline")
+![alt text](https://raw.githubusercontent.com/pabloagn/digital-assets/master/markdown-cheatsheet-asset-1.jpg "Digital Asset Inline")
 ```
 
 ### **_Example_**
 - Inline-style: 
-![alt text](https://raw.githubusercontent.com/pabloaguirrenck/digital-assets/master/markdown-cheatsheet-asset-1.jpg "Digital Asset 1")
+![alt text](https://raw.githubusercontent.com/pabloagn/digital-assets/master/markdown-cheatsheet-asset-1.jpg "Digital Asset 1")
 
 ## 9. Code Blocks & Syntax Highlighting
 - **Code blocks** are used to denote fragments of code, in an easy-to-copy fashion.
@@ -393,4 +393,4 @@ This is a sentence with footnote. [^footnote]
 - [normal-distribution-density-function](https://en.wikipedia.org/wiki/Normal_distribution)
 
 ## 17. License
-This content is protected under the [GNU Free Documentation License v1.3](https://github.com/pabloaguirrenck/documentation/blob/master/LICENSE).
+This content is protected under the [GNU Free Documentation License v1.3](https://github.com/pabloagn/documentation/blob/master/LICENSE).
