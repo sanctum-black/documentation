@@ -1,9 +1,10 @@
 # .gitignore file for: documentation
-# Ignore .obsidian folder on all category subfolders using ** wildcard
-**/.obsidian/
 
 ## Ignore .vscode folder on all categories using ** wildcard
 **/.vscode/
+
+# Ignore screenshots folder on all category subfolders using ** wildcard
+**/screenshots/
 
 # Ignore .obsidian folder on main folder
 .obsidian/
