@@ -18,8 +18,8 @@ Extensions used are `.md` and `.markdown`.
 	- [Unordered Lists](#2-unordered-lists)
 - [Task Lists](#task-lists)
 - [Links](#links)
-	- [Internal Links](#1-internal-links)
-	- [External Links](#2-external-links)
+	- [External Links](#1-external-links)
+	- [Internal Links](#2-internal-links)
 - [Images](#images)
 	- [Inline Style](#1-inline-style)
 	- [Custom HTML embedding](#2-custom-html-embedding)
@@ -32,7 +32,7 @@ Extensions used are `.md` and `.markdown`.
 - [Inline HTML](#inline-html)
 - [Tex Mathematical Expressions](#tex-mathematical-expressions)
 - [Footnotes](#footnotes)
-- [Diagramming](#diagrams)
+- [Diagramming](#diagramming)
 	- [Mermaid Diagrams](#1-mermaid-diagrams)
 	- [GeoJSON and TopoJSON maps](#2-geojson-and-topojson-maps)
 	- [STL 3D models](#3-stl-3d-models)
@@ -182,7 +182,7 @@ Ordered list:
 - **Links** can be inserted by using squre brackets `[]` and parenthesis `()`.  
 - Links can be external (i.e. some external website) or internal (i.e. inside same Markdown document).
 
-### 1. External Link
+### 1. External Links
 
 ##### **Code**
 ```
@@ -192,7 +192,7 @@ Ordered list:
 ##### Example
 [Google](https://www.google.com)
 
-### 2. Internal Link
+### 2. Internal Links
 
 ##### **Code**
 ```
@@ -235,7 +235,7 @@ We just need to be sure to include any text below the image after a newline.
 - **Code blocks** are used to denote fragments of code, in an easy-to-copy fashion.
 - _Highlighting_ is language dependent and must be specified in block.
 
-### 1. Code Blocks & Syntax Highlighting
+### 1. Code Blocks
 - A code block must be written inside three back-ticks ` ``` `, or must be indented with four spaces.
 - If language is left unspecified, highlighting won't appear.
 
