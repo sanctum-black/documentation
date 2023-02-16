@@ -20,5 +20,8 @@
 **/featured_images/
 **/**/featured_images/
 
+# Ignore template files
+templates/
+
 # Ignore desktop.ini
 desktop.ini

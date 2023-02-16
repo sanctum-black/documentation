@@ -1,4 +1,10 @@
-# Markdown
+<article class="first">
+  <div class="title">
+    <h1>Markdown</h1>
+  </div>
+</article>
+
+---
 
 [![made-with badge](https://img.shields.io/static/v1?label=Made%20with&message=Obsidian&color=7d5bed&logo=obsidian&labelColor=1a1a1a&style=flat)](https://obsidian.md/)
 
@@ -25,6 +31,8 @@ Extensions used are `.md` and `.markdown`.
 	- [Custom HTML embedding](#2-custom-html-embedding)
 - [Code Blocks & Syntax Highlighting](#code-blocks--syntax-highlighting)
 	- [Code Blocks](#1-code-blocks)
+		- [Unhlighlighted](#11-unhighlighted)
+		- [Highlighted](#12-highlighted)
 	- [Inline Code](#2-inline-code)
 - [Keyboard Entries](#keyboard-entries)
 - [Tables](#tables)
@@ -38,11 +46,12 @@ Extensions used are `.md` and `.markdown`.
 	- [STL 3D models](#3-stl-3d-models)
 - [References](#references)
 - [License](#license)
+- [Copyright](#copyright)
 
-## Headers
+# Headers
 - **Headers** serve as hierarchy differentiators, just as in any typical word processor. 
 
-#### **_Syntax_**
+##### **Code**
 ```
 # Heading 1
 ## Heading 2
@@ -52,7 +61,7 @@ Extensions used are `.md` and `.markdown`.
 ###### Heading 6
 ```
 
-#### **_Example_**
+##### **Output**
 # Heading 1
 ## Heading 2
 ### Heading 3
@@ -63,7 +72,7 @@ Extensions used are `.md` and `.markdown`.
 ## Horizontal Rule
 - **Horizontal rules** can be implemented for dividing sections.
 
-#### **_Syntax_**
+##### **Code**
 ```
 Use 3 or more of the following characters: 
 
@@ -72,7 +81,7 @@ Asterisks: ***
 Underscores: ___
 ```
 
-#### **_Example_**
+##### **Output**
 ---
 Hyphens
 ***
@@ -80,7 +89,8 @@ Asterisks
 ___
 Underscores
 
-## Emphasis
+---
+# Emphasis
 - **Emphasis** characters are used to provide weight, to differentiate, to denote a word in another language, or to denote a keyword, among other applications.
 
 ##### **Code**
@@ -93,14 +103,15 @@ Highlight: ==with dpuble equal signs==.
 Underlined: Not possible in Markdown.
 ```
 
-##### **Example**
+##### **Output**
 _Italics_
 **Bold**
 **_Combined_**
 ~~Strikethrough~~
 ==Highlight==
 
-## Line Breaks
+---
+# Line Breaks
 - **Line breaks** are used to separate text.
 
 ##### **Code**
@@ -112,18 +123,20 @@ Double Line Break:
 
 ```
 
-##### **Example**
+##### **Output**
 Single Line Break:
 
 Double Line Break:
 
 
-## Lists
+---
+
+# Lists
 - **Lists** are used to denote a number of connected items or names written or printed consecutively.
 - Lists can be _ordered_ or _unordered_.
 - Upon inputting the first number in ordered lists or the first bullet in unordered lists and inputting a `newline`, text editors will continue with sequence. 
 
-### 1. Ordered Lists
+## 1. Ordered Lists
 
 ##### **Code**
 ```
@@ -135,14 +148,14 @@ Ordered list:
 5. Item n
 ```
 
-##### **Example**
+##### **Output**
 1. Item 1
 2. Item 2
 3. Item 3
 4. Item 4
 5. Item n
 
-### 2. Unordered Lists
+## 2. Unordered Lists
 
 ##### **Code**
 ```
@@ -153,14 +166,16 @@ Ordered list:
 - Item n
 ```
 
-##### **Example**
+##### **Output**
 - Item 1
 - Item 2
 - Item 3
 - Item 4
 - Item n
 
-## Task Lists
+---
+
+# Task Lists
 - A **Task List** is used to graphically represent a checklist. 
 - A Task List has two components:
 	- Check: Use square brackets `[]`. Fill with `x` if checked, otherwise empty.
@@ -173,40 +188,44 @@ Ordered list:
 [ ] Task n
 ```
 
-##### **Example**
+##### **Output**
 [x] Task 1
 [x] Task 2
 [ ] Task n
 
-## Links
+---
+
+# Links
 - **Links** can be inserted by using squre brackets `[]` and parenthesis `()`.  
 - Links can be external (i.e. some external website) or internal (i.e. inside same Markdown document).
 
-### 1. External Links
+## 1. External Links
 
 ##### **Code**
 ```
 [Google](https://www.google.com)
 ```
 
-##### Example
+##### **Output**
 [Google](https://www.google.com)
 
-### 2. Internal Links
+## 2. Internal Links
 
 ##### **Code**
 ```
 [Table of Contents](#0-table-of-contents)
 ```
 
-##### **Example**
+##### **Output**
 [Table of Contents](#0-table-of-contents)
 
-## Images
+---
+
+# Images
 - **Images** can be embedded inline by using default Markdown syntax.
 - **Images** can also be custom embedded using HTML syntax.
 
-### 1. Inline Style
+## 1. Inline Style
 
 ##### **Code**
 ```
@@ -214,10 +233,10 @@ Inline-style:
 ![alt text](https://raw.githubusercontent.com/pabloagn/digital-assets/master/markdown-cheatsheet-asset-1.jpg "Digital Asset Inline")
 ```
 
-##### **Example**
+##### **Output**
 ![alt text](https://raw.githubusercontent.com/pabloagn/digital-assets/master/markdown-cheatsheet-asset-1.jpg "Digital Asset 1")
 
-### 2. Custom HTML embedding
+## 2. Custom HTML embedding
 
 ##### **Code**
 ```
@@ -226,21 +245,23 @@ Inline-style:
 Some text describing the image
 ```
 
-##### **Example**
+##### **Output**
 <div><img src="https://raw.githubusercontent.com/pabloagn/digital-assets/master/markdown-cheatsheet-asset-1.jpg" alt="Example"/></div>
 
 We just need to be sure to include any text below the image after a newline.
 
-## Code Blocks & Syntax Highlighting
+---
+# Code Blocks & Syntax Highlighting
 - **Code blocks** are used to denote fragments of code, in an easy-to-copy fashion.
 - _Highlighting_ is language dependent and must be specified in block.
 
-### 1. Code Blocks
+## 1. Code Blocks
 - A code block must be written inside three back-ticks ` ``` `, or must be indented with four spaces.
 - If language is left unspecified, highlighting won't appear.
 
+### 1.1 Unhighlighted
+
 ##### **Code**
-- Unhighlighted
 ````
 ```
 def myFun():
@@ -255,7 +276,22 @@ myFun()
 ```
 ````
 
-- Highlighted
+##### **Output**
+```
+def myFun():
+	l = []
+	for i in range(2):
+		a = i**2
+		l.append(a)
+		print(a)
+	return l
+
+myFun()
+```
+
+### 1.2 Highlighted
+
+##### **Code**
 ````
 ```python
 def myFun():
@@ -270,21 +306,7 @@ myFun()
 ```
 ````
 
-##### **Example**
-- Unhighlighted
-```
-def myFun():
-	l = []
-	for i in range(2):
-		a = i**2
-		l.append(a)
-		print(a)
-	return l
-
-myFun()
-```
-
-- Highlighted
+##### **Output**
 ```python
 def myFun():
 	l = []
@@ -297,7 +319,7 @@ def myFun():
 myFun()
 ```
 
-### 2. Inline Code
+## 2. Inline Code
 - A code segment between text can be specified by wrapping code in single back-ticks ` `` `.
 
 ##### **Code**
@@ -305,10 +327,12 @@ myFun()
 A Python `class` serves as blueprint for creating `objects`.
 ```
 
-##### **Example**
+##### **Output**
 A Python `class` serves as a blueprint for creating `objects`.
 
-## Keyboard Entries
+---
+
+# Keyboard Entries
 - **Keyboard entries** are a way to represent actual keys in a keyboard, using a special format.
 - By default, Markdown does not support this type of formatting, but we can achieve this by using HTML code.
 - Similar to code blocks, we can symbolize keyboard entries by using the HTML `<kbd></kbd>` element.
@@ -318,10 +342,12 @@ A Python `class` serves as a blueprint for creating `objects`.
 To execute, press the <kbd>Enter</kbd> key.
 ```
 
-##### **Example**
+##### **Output**
 To execute, press the <kbd>Enter</kbd> key.
 
-## Tables
+---
+
+# Tables
 - **Tables** can be used to structure data, and are comprised of headers and body.
 - A table is denoted by specifying headers first, separator second, and body third.
 - Outer pipes (|) are optional.
@@ -334,13 +360,15 @@ To execute, press the <kbd>Enter</kbd> key.
 | r2c1 | r2c2 | r2cn |
 ```
 
-##### **Example**
+##### **Output**
 | Header 1 | Header 2 | Header n |
 |---|---|---|
 | r1c1 | r1c2 | r1cn |
 | r2c1 | r2c2 | r2cn |
 
-## Blockquotes
+---
+
+# Blockquotes
 - **Blockquotes** are used to indicate the quotation of a large section of text from another source.
 
 ##### **Code**
@@ -353,14 +381,16 @@ Quote break.
 > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
 ```
 
-##### **Example**
+##### **Output**
 > Blockquotes are very handy in email to emulate reply text.
 > This line is part of the same quote.
 
 Quote break.
 > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
 
-## Inline HTML
+---
+
+# Inline HTML
 - Raw **HTML** can be included in Markdown.
 
 ##### **Code**
@@ -374,7 +404,7 @@ Quote break.
 </dl>
 ```
 
-##### **Example**
+##### **Output**
 <dl>
   <dt>Definition list</dt>
   <dd>Is something people use sometimes.</dd>
@@ -383,7 +413,9 @@ Quote break.
   <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
 
-## Tex Mathematical Expressions
+---
+
+# Tex Mathematical Expressions
 - **Tex** mathematical expressions can be declared in Markdown by using Tex syntax directly.
 - To enter a Tex expression, wrap in dollar signs `$`.
 
@@ -392,10 +424,12 @@ Quote break.
 $f_X(x)={k \over \sqrt{2\pi\sigma^2}}e^{{-({x-\mu})^2}\over2\sigma^2}, x \geq 0$
 ```
 
-##### **Example**
+##### **Output**
 $f_X(x)={k \over \sqrt{2\pi\sigma^2}}e^{{-({x-\mu})^2}\over2\sigma^2}, x \geq 0$
 
-## Footnotes
+---
+
+# Footnotes
 - **Footnotes** can be added by enclosing any keyword in squared brackets and ading the caret symbol before keyword `[^footnote_1]`.
 - Upn clicking the footnote, the reference will highlight.
 - Note that in **Obsidian** at least, footnotes are rendered until _read-mode_ is accessed.
@@ -409,23 +443,29 @@ We will later reference the footnote by denoting as follows:
 [^footnote]: This is the actual reference.
 ```
 
-##### **Example**
+##### **Output**
 This is a sentence with footnote. [^footnote]
 
  [^footnote]: This is the actual footnote.
 
-## Diagramming
+---
 
-### 1. Mermaid Diagrams
+# Diagramming
 
-### 2. GeoJSON and TopoJSON maps
+## 1. Mermaid Diagrams
 
-### 3. STL 3D models
+## 2. GeoJSON and TopoJSON maps
 
-## References
+## 3. STL 3D models
+
+---
+
+# References
 - [ChristianLempa/cheat-sheets/misc/markdown.md](https://github.com/ChristianLempa/cheat-sheets/blob/main/misc/markdown.md)
 - [adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [normal-distribution-density-function](https://en.wikipedia.org/wiki/Normal_distribution)
 
-## License
-This content is protected under the [GNU Free Documentation License v1.3](https://github.com/pabloagn/documentation/blob/master/LICENSE).
+---
+
+# Copyright
+Pablo Aguirre, GNU Free Documentation License v1.3, All Rights Reserved.
