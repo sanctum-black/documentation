@@ -7,7 +7,7 @@ Here you will find all the documentation I’ve created for the technology I use
 
 ## Table of Contents
 1. [Linux](https://github.com/pabloagn/documentation/tree/master/linux)
-	2. [WSL2](https://github.com/pabloagn/documentation/blob/master/linux/wsl2.md)
+	1. [WSL2](https://github.com/pabloagn/documentation/blob/master/linux/wsl2.md)
 2. [Network & Servers](https://github.com/pabloagn/documentation/tree/master/network-and-servers)
 	1. [QNAP NAS](https://github.com/pabloagn/documentation/blob/master/network-and-servers/qnap-nas.md)
 	2. [WinSCP](https://github.com/pabloagn/documentation/blob/master/network-and-servers/winscp.md)
