@@ -234,7 +234,7 @@ Inline-style:
 ```
 
 ##### **Output**
-![alt text](https://raw.githubusercontent.com/pabloagn/digital-assets/master/markdown-cheatsheet-asset-1.jpg "Digital Asset 1")
+![alt text](https://pabloagn.com/wp-content/uploads/2023/04/markdown-cheatsheet-asset-1.jpg "Digital Asset 1")
 
 ## 2. Custom HTML embedding
 
@@ -246,7 +246,7 @@ Some text describing the image
 ```
 
 ##### **Output**
-<div><img src="https://raw.githubusercontent.com/pabloagn/digital-assets/master/markdown-cheatsheet-asset-1.jpg" alt="Example"/></div>
+<div><img src="https://pabloagn.com/wp-content/uploads/2023/04/markdown-cheatsheet-asset-1.jpg" alt="Example"/></div>
 
 We just need to be sure to include any text below the image after a newline.
 

@@ -1,6 +1,6 @@
 # documentation
 
-![alt text](https://raw.githubusercontent.com/pabloagn/digital-assets/master/documentation-cover-image.jpg "Documentation Cover Image")
+![alt text](https://pabloagn.com/wp-content/uploads/2023/04/documentation-cover-image.jpg "Documentation Cover Image")
 
 ## About
 Here you will find all the documentation I’ve created for the technology I use. I currently use Windows & Linux as main drivers, so most of the documentation will not be platform agnostic, though occasionally, I may include macOS-related content. Keep in mind that most cases are WIP. All documents are created using Markdown.

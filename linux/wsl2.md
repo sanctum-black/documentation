@@ -28,3 +28,57 @@ code .
 ```
 
 
+Get Ubuntu installation path from PowerShell
+
+```PowerShell
+(get-command Ubuntu).Path
+```
+
+Update WSL (*solves bugs sometimes*)
+
+```PowerShell
+wsl --update
+```
+
+List all currently installed distributions
+
+```
+wsl -l
+```
+
+Unregister a given distribution from WSL2 (*unmounts disk*)
+
+```PowerShell
+wsl --unregister Ubuntu
+```
+
+Silence Welcome to Ubuntu prompt
+
+```Bash
+touch /home/pabloagnck/.hushlogin
+```
+
+Silence sudo admin privileges message
+
+```Bash
+sudo apt-get update
+```
+
+- One sudo command will create a `.sudo_as_admin_successful` file in home folder.
+
+Download packages for Ubuntu
+
+Always look for the ones having `amd64.deb`.
+
+Install:
+
+```Bash
+sudo dpkg -i lsd_0.23.1_amd64.deb
+```
+
+Configure Git credentials
+
+```Bash
+git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/libexec/git-core/git-credential-wincred.exe"
+```
+
